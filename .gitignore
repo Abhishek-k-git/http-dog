@@ -5,6 +5,7 @@ backend/node_modules/
 # Ignore build artifacts in frontend
 frontend/build/
 frontend/dist/
+frontend/*.log
 
 # Ignore .env files
 backend/.env
@@ -13,7 +14,6 @@ backend/.env.local
 # Ignore database related files (if applicable)
 backend/data/
 backend/db/
-backend/logs/*
 
 # Ignore IDE specific files
 *.suo
